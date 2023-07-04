@@ -1,0 +1,29 @@
+{{!-- Banner --}}
+<section class="d-flex justify-content-center align-items-center my-4">
+<img src="../public/img/Portada1.gif" alt="Lista de Animes" >
+</section>
+
+{{!-- Boton Para Añadir series --}}
+<section class="d-flex">
+    <div>
+        <button class="btn btn-danger my-4 agregar" data-bs-toggle="modal" data-bs-target="#crearAnimeModal"><i class="bi bi-file-earmark-plus"></i> Agregar Nueva Serie</button>
+    </div>
+    <div class="d-flex ms-auto ">
+        <form id="buscador" class="d-flex" action="/" method="GET">
+            <label for="buscar" class="form-label my-4"></label>
+            <input type="text" class="form-control my-4 mx-2" name="busqueda" placeholder="Ingrese Nombre o ID" id="buscar">
+            <button  type="submit" class="btn btn-success my-4 animate__animated" id="btnBuscar"><i class="bi bi-search"></i> Buscar</button>
+        </form>
+    </div>
+</section>
+
+{{!-- Tabla Con Animes --}}
+{{#if animes}}
+{{>tabla
+    animes = animes}}
+{{else}}
+<h3>No hay Animes para mostrar</h3>
+{{/if}}
+
+{{!-- Modales --}}
+{{>modal}}

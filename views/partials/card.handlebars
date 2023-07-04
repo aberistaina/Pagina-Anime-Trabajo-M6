@@ -1,0 +1,19 @@
+{{!-- Card Con Animes --}}
+
+<div class="row">
+{{#each animes}}
+    <div class="card text-center col-12 col-md-6 col-lg-3 my-4">
+      <img src="{{this.imagen}}" class="card-img-top mx-auto py-3" style="width: 220px; height: 330px;" alt="Imagen">
+      <div class="card-body">
+        <h5 class="card-title font-weight-bold">{{this.nombre}}</h5>
+        <p class="card-text">Género: {{this.genero}}</p>
+        <p class="card-text">Año de estreno: {{this.year}}</p>
+        <p class="card-text">Autor: {{this.autor}}</p>
+      </div>
+    </div>
+{{/each}}
+</div>
+
+
+
+

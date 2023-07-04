@@ -1,0 +1,29 @@
+<link rel="stylesheet" href="../public/css/cards.css">
+
+{{!-- Banner --}}
+<section class="d-flex justify-content-center align-items-center my-4">
+<img src="../public/img/Portada2.gif" alt="Lista de Animes" >
+</section>
+
+<section class="d-flex">
+    <div class="d-flex ms-auto ">
+        <form id="buscador" class="d-flex" action="/animecards" method="GET">
+            <label for="buscar" class="form-label my-4"></label>
+            <input type="text" class="form-control my-4 mx-2" name="busqueda" placeholder="Ingrese Nombre o ID" id="buscar">
+            <button  type="submit" class="btn btn-success my-4 animate__animated" id="btnBuscarCard"><i class="bi bi-search"></i> Buscar</button>
+        </form>
+    </div>
+</section>
+
+{{!-- Tabla Con Animes --}}
+{{#if animes}}
+{{>card
+    animes = animes}}
+{{else}}
+<h3>No hay Animes para mostrar</h3>
+
+{{/if}}
+
+<style>
+
+</style>

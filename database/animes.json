@@ -1,0 +1,112 @@
+{
+    "animes": [
+        {
+            "id": 1,
+            "nombre": "Dragon Ball",
+            "genero": "Shonen",
+            "autor": "Akira Toriyama",
+            "imagen": "/public/img/dragonball.jpg",
+            "descripcion": "Dragon Ball es una popular serie de anime y manga creada por Akira Toriyama. La historia sigue las aventuras de Goku, un joven guerrero con habilidades especiales, mientras se embarca en una búsqueda por las esferas del dragón para cumplir sus deseos. Llena de acción, humor y personajes memorables, Dragon Ball ha dejado una huella duradera en la cultura popular.",
+            "year": "1986"
+        },
+        {
+            "id": 2,
+            "nombre": "Akira",
+            "genero": "Seinen",
+            "year": "1988",
+            "autor": "Katsuhiro Otomo",
+            "imagen": "/public/img/akira.jpg",
+            "descripcion": "Akira es una icónica película de anime de ciencia ficción y acción. Situada en un Tokio post-apocalíptico, sigue la historia de Kaneda y Tetsuo, dos jóvenes involucrados en experimentos psíquicos y conspiraciones gubernamentales, mientras se sumergen en un mundo lleno de poderes sobrenaturales, corrupción y caos urbano."
+        },
+        {
+            "id": 3,
+            "nombre": "Sailor Moon",
+            "genero": "Shojo",
+            "year": "1992",
+            "autor": "Naoko Takeuchi",
+            "imagen": "/public/img/sailormoon.webp",
+            "descripcion": "Akira es una icónica película de anime de ciencia ficción y acción. Situada en un Tokio post-apocalíptico, sigue la historia de Kaneda y Tetsuo, dos jóvenes involucrados en experimentos psíquicos y conspiraciones gubernamentales, mientras se sumergen en un mundo lleno de poderes sobrenaturales, corrupción y caos urbano."
+        },
+        {
+            "id": 4,
+            "nombre": "Naruto",
+            "genero": "Shonen",
+            "year": "2002",
+            "autor": "Masashi Kishimoto",
+            "imagen": "/public/img/naruto.jpg",
+            "descripcion": "Akira es una icónica película de anime de ciencia ficción y acción. Situada en un Tokio post-apocalíptico, sigue la historia de Kaneda y Tetsuo, dos jóvenes involucrados en experimentos psíquicos y conspiraciones gubernamentales, mientras se sumergen en un mundo lleno de poderes sobrenaturales, corrupción y caos urbano."
+        },
+        {
+            "id": 5,
+            "nombre": "Neon Genesis Evangelion",
+            "genero": "Mecha",
+            "year": "1995",
+            "autor": "Yoshiyuki Sadamoto",
+            "imagen": "/public/img/evangelion.jpg",
+            "descripcion": "Akira es una icónica película de anime de ciencia ficción y acción. Situada en un Tokio post-apocalíptico, sigue la historia de Kaneda y Tetsuo, dos jóvenes involucrados en experimentos psíquicos y conspiraciones gubernamentales, mientras se sumergen en un mundo lleno de poderes sobrenaturales, corrupción y caos urbano."
+        },
+        {
+            "id": "a7b",
+            "nombre": "Pokemon",
+            "genero": "Kodomo",
+            "year": "1997",
+            "autor": "Junichi Masuda",
+            "imagen": "https://www.ecartelera.com/carteles-series/300/325/001_p.jpg",
+            "descripcion": "Pokemon sigue las aventuras de Ash Ketchum, un joven entrenador de Pokémon, en su búsqueda por convertirse en un Maestro Pokémon. Con Pikachu a su lado, Ash desafía líderes de gimnasio, participa en la Liga Pokémon y enfrenta al infame Team Rocket. Con más de 20 temporadas, Pokemon cautiva con su emocionante mezcla de acción, amistad y exploración del mundo Pokémon. Aprendiendo importantes lecciones sobre trabajo en equipo y respeto hacia los Pokémon y la naturaleza, Ash y sus amigos inspiran a "
+        },
+        {
+            "id": "b68",
+            "nombre": "Hamtaro",
+            "genero": "Kodomo",
+            "year": "2000",
+            "autor": "Ritsuko Kawai",
+            "imagen": "https://www.dvdplanetstore.pk/wp-content/uploads/2017/12/xNtnILcRyzb7mhFUwglEXJLI3wn.jpg",
+            "descripcion": "Hamtaro es un anime encantador que narra las aventuras de un pequeño hámster dorado. Junto a sus amigos peludos, Hamtaro explora el mundo desde la perspectiva de las mascotas, ofreciendo diversión y amistad. Cada episodio muestra situaciones cotidianas donde los hámsters enfrentan desafíos, resuelven problemas y aprenden valiosas lecciones de vida. Con personajes entrañables y coloridos, Hamtaro conquista los corazones de los espectadores con su inocencia, humor y valores positivos. "
+        },
+        {
+            "id": "0a7",
+            "nombre": "Dragon Ball Z",
+            "genero": "Shonen",
+            "year": "1989",
+            "autor": "Akira Toriyama",
+            "imagen": "https://www.crunchyroll.com/imgsrv/display/thumbnail/480x720/catalog/crunchyroll/35e4ac6339f5fdcc164160a5755790cd.jpe",
+            "descripcion": "Dragon Ball Z es una popular serie de anime que sigue las aventuras de Goku y sus amigos mientras luchan contra poderosos enemigos para proteger la Tierra. Con un estilo de animación dinámico y emocionantes batallas, la historia se centra en la superación personal, la amistad y la búsqueda de poder. Los personajes desatan increíbles habilidades y transformaciones, como los icónicos Super Saiyajin, mientras exploran el universo, enfrentándose a enemigos legendarios como Freezer, Cell y Majin Buu."
+        },
+        {
+            "id": "5a2",
+            "nombre": "Slam Dunk",
+            "genero": "Spokon",
+            "year": "1993",
+            "autor": "Takehiko Inoue",
+            "imagen": "https://www.allcitycanvas.com/wp-content/uploads/2019/10/slam-dunk-pic-one.jpg",
+            "descripcion": "Slam Dunk es un emocionante manga y anime. Sigue la historia de Hanamichi Sakuragi, un estudiante problemático. Descubre su pasión por el baloncesto y se une al equipo de su escuela. Con retos personales, busca convertirse en un jugador formidable. Partidos intensos, rivalidades y amistades se entrelazan. Slam Dunk combina acción, comedia y drama. Una historia de crecimiento personal llena de determinación. Con personajes carismáticos y momentos emocionantes, cautiva a fans en todo el mundo."
+        },
+        {
+            "id": "654",
+            "nombre": "GeGeGe no Kitaro",
+            "genero": "romaji",
+            "year": "1996",
+            "autor": "Shigeru Mizuki",
+            "imagen": "https://www.crunchyroll.com/imgsrv/display/thumbnail/480x720/catalog/crunchyroll/8e96b587336d39a7521ca81fbd4563ed.jpe",
+            "descripcion": "GeGeGe no Kitaro es un anime y manga cautivador. Sigue las aventuras de Kitaro, un niño yokai con poderes sobrenaturales. Junto a amigos yokai, protege a humanos de amenazas monstruosas. Con humor y folclore japonés, lucha contra yokai malvados y promueve la coexistencia pacífica. Valora la amistad, valentía y aceptación. Animación envolvente y personajes entrañables hacen de GeGeGe no Kitaro una serie amada en todo el mundo."
+        },
+        {
+            "id": "a91",
+            "nombre": "Digimon",
+            "genero": "Kodomo",
+            "year": "1999",
+            "autor": "Akiyoshi Hongo",
+            "imagen": "https://upload.wikimedia.org/wikipedia/en/4/43/Digimon_Digital_Monsters_Season_1_DVD_Cover.png",
+            "descripcion": "Digimon es una serie anime que combina aventura, acción y amistad. Sigue a un grupo de niños elegidos que, tras ser transportados a un mundo digital, se convierten en compañeros de unos seres digitales llamados Digimon. Juntos, luchan contra fuerzas malignas mientras exploran diversos mundos y fortalecen sus lazos."
+        },
+        {
+            "id": "4b4",
+            "nombre": "shingeki no kyojin",
+            "genero": "Seinen",
+            "year": "2013",
+            "autor": "Hajime Isayama",
+            "imagen": "https://www.lasdaoalplay.com/wp-content/uploads/2018/03/shingeki-no-kyojin-poster.jpg",
+            "descripcion": "Shingeki no Kyojin es un anime épico y oscuro que se desarrolla en un mundo donde la humanidad lucha contra gigantes devoradores de personas llamados Titanes. Sigue la historia de Eren Yeager y sus amigos, quienes se unen al Cuerpo de Exploración para combatir a los Titanes y descubrir los secretos detrás de su existencia, desatando revelaciones impactantes y conflictos emocionales profundos."
+        }
+    ]
+}
